@@ -14,7 +14,7 @@ function App() {
       <Unity
         style={{
           width: "100%",
-          height: "100%",
+          height: "100%", /* Will fill available space (90vh due to padding-bottom) */
         }}
         unityProvider={unityProvider}
       />

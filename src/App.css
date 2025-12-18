@@ -3,6 +3,8 @@
   width: 100vw;
   margin: 0;
   padding: 0;
+  padding-bottom: 10vh; /* Add 10% blank space at bottom to lift game above browser UI */
   overflow: hidden;
   background-color: #1a1a1a;
+  box-sizing: border-box;
 }
