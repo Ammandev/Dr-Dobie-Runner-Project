@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/Dr-Dobie-Runner-Project/build/Webgl.loader.js",
-    dataUrl: "/Dr-Dobie-Runner-Project/build/Webgl.data",
-    frameworkUrl: "/Dr-Dobie-Runner-Project/build/Webgl.framework.js",
-    codeUrl: "/Dr-Dobie-Runner-Project/build/Webgl.wasm",
+    loaderUrl: "/build/Webgl.loader.js",
+    dataUrl: "/build/Webgl.data",
+    frameworkUrl: "/build/Webgl.framework.js",
+    codeUrl: "/build/Webgl.wasm",
   });
 
   const MAX_ASPECT_RATIO = 1.5; // Maximum width to height ratio (width = 1.5 * height)

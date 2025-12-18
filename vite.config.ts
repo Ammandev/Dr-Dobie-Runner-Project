@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Dr-Dobie-Runner-Project/', // Set this to your repository name
+  base: '/', // Root path for Vercel deployment
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
